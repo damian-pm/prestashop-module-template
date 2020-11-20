@@ -1,0 +1,17 @@
+{
+    "name": "prestashop-module-template",
+    "authors": [
+        {
+            "name": "Damian",
+            "email": "damian.portalm@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          // "PrestaShop\\Module\\DSComment\\": "src/" //Example
+        },
+        // "classmap": ["ds_comment.php"], //Example
+        "exclude-from-classmap": []
+      },
+    "require": {}
+}
