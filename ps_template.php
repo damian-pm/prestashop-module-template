@@ -51,7 +51,6 @@ class ps_template extends Module implements WidgetInterface
     {
         return true;
         
-        // return Db::getInstance()->execute('DROP TABLE IF EXISTS `' . _DB_PREFIX_ . 'dscomment`');
     }
     public function reset()
     {
